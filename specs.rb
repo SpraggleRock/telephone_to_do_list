@@ -23,7 +23,7 @@ describe Task do
 
   context '#status' do
     it 'returns the task status' do
-      task.description.should eq  true
+      task.status.should eq  true
     end
   end
 
