@@ -1,9 +1,9 @@
 class Task
-  attr_reader :title, :description, :is_complete
+  attr_reader :name, :description, :status
 
-  def initialize(title,description,is_complete)
-    @title = title
+  def initialize(name,description,status)
+    @name = name
     @description = description
-    @is_complete = is_complete
+    @status = status
   end
 end
